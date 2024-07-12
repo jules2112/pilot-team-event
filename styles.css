@@ -1,0 +1,167 @@
+.cover-picture {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.cover-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-family: 'Helvetica Now Condensed', sans-serif;
+}
+
+.cover-text h1 {
+    font-size: 4em;
+    margin: 0;
+}
+
+.cover-text p {
+    font-size: 1.5em;
+    margin: 10px 0 0 0;
+}
+
+/* Ensure other sections have padding to avoid overlapping with the cover */
+main {
+    padding: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Now Condensed', sans-serif;
+    background-color: #f2f7fe;
+    color: #231F20;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: hsl(0, 0%, 99%);
+    color: #04586F;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.header .logo {
+    width: 300px;
+    height: auto;
+    margin-bottom: 1px;
+}
+
+.header h1 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.header .slogan {
+    font-size: 1.2em;
+    font-style: normal;
+}
+
+main {
+    flex: 1;
+    padding: 30px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.info h2, .data h2, .gallery h2, .links h2 {
+    color: #04586F;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.info p {
+    margin: 10px 0;
+}
+
+table {
+    width: 40%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 2px solid #04586F;
+}
+
+th, td {
+    border: 0.5px solid #04586F;
+    padding: 10px;
+    text-align: left;
+}
+
+
+ul {
+    list-style-type: square; /* Default bullet points */
+    padding-left: 30px; /* Indent the list */
+    margin-top: 15px;
+}
+
+ul li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.links ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.links li {
+    margin: 5px 0;
+}
+
+.links a {
+    color: #04586F;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #231F20;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.footer-image {
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+    border-top: 0px solid #04586F; /* Optional: Add border to match your design */
+    padding-top: 0px; /* Optional: Add padding for spacing */
+}
